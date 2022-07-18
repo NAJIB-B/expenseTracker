@@ -1,0 +1,43 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+div {
+  text-align: center;
+  margin: auto 10%;
+}
+.name {
+  width: 85%;
+}
+input {
+  width: 36%;
+  margin: 15px;
+  border-radius: 6px;
+  height: 40px;
+}
+.addExpense {
+  background-color: rgb(37, 224, 31);
+  border-radius: 4px;
+  height: 40px;
+  width: 10%;
+  border: none;
+  color: white;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  height: 30px;
+  border-radius: 2px;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: rgb(235, 231, 231);
+}
+h3 {
+  color: rgb(37, 224, 31);
+}
